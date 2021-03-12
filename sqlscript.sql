@@ -8,13 +8,7 @@ create table cadastro
 sobrenome varchar2 (30), 
 salario number (10, 2), 
 endereco varchar2 (30), 
-dt_cadatro date);
-
-insert into cadastro values ('Marcelo', 'Diniz', 1000, 'Piracema 100', sysdate);
-
-insert into cadastro values ('Marcelo', 'Diniz', 1000, 'Piracema 100', sysdate);
-
-select * from cadastro;
+dt_cadastro date);
 
 insert into cadastro values ('Marcelo', 'Diniz', 1000, 'Piracema 100', sysdate);
 
@@ -38,24 +32,15 @@ insert into cadastro values ('Marcelo', 'Juracy', 7350, 'Santa Elvira 100', sysd
 
 select * from cadastro;
 
-select * from cadastro;
-
 select * from cadastro order by nome asc;
 
-select nome, sobrenome from cadastro 
-;
+select nome, sobrenome from cadastro ;
 
 select * from cadastro where nome in('Marina', 'Eduardo');
 
 select * from cadastro where nome = 'Marina' or nome = 'Eduardo';
 
 select nome, sobrenome, salario * 13, endereco, dt_ cadastro from cadastro;
-
-select nome, sobrenome, salario * 13, endereco, dt_cadastro from cadastro;
-
-select nome, sobrenome, salario * 13, endereco, dt_cadastro from cadastro;
-
-select nome, sobrenome, salario * 13, endereco, dt_cadastro from cadastro;
 
 select * from cadastro where nome = 'Marina' or nome = 'Eduardo';
 
@@ -73,6 +58,4 @@ dt_cadastro date);
 select * from cadastro where nome in('Marina', 'Eduardo');
 
 select nome, sobrenome, salario * 13, endereco, dt_cadastro from cadastro;
-
-select nome, sobrenome, salario * 13, endereco, dt_cadatro from cadastro;
 
