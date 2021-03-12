@@ -10,34 +10,6 @@ salario number (10, 2),
 endereco varchar2 (30), 
 dt_cadatro date);
 
-create table cadastro 
-(nome varchar2 (30). 
-sobrenome varchar2 (30), 
-salario number (10, 2), 
-endereco varchar2 (30), 
-dt_cadatro date);
-
-create table cadastro 
-(nome varchar2 (30). 
-sobrenome varchar2 (30), 
-salario number (10, 2), 
-endereco varchar2 (30), 
-dt_cadatro date);
-
-create table cadastro 
-(nome varchar2 (30). 
-sobrenome varchar2 (30), 
-salario number (10, 2), 
-endereco varchar2 (30), 
-dt_cadatro date);
-
-create table cadastro 
-(nome varchar2 (30), 
-sobrenome varchar2 (30), 
-salario number (10, 2), 
-endereco varchar2 (30), 
-dt_cadatro date);
-
 insert into cadastro values ('Marcelo', 'Diniz', 1000, 'Piracema 100', sysdate);
 
 insert into cadastro values ('Marcelo', 'Diniz', 1000, 'Piracema 100', sysdate);
