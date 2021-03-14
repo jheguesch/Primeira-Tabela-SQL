@@ -2,7 +2,7 @@ REM   Script: Aula 4
 REM   Criando tabela
 
 create table cadastro 
-(nome varchar2 (30). 
+(nome varchar2 (30), 
 sobrenome varchar2 (30), 
 salario number (10, 2), 
 endereco varchar2 (30), 
