@@ -1,8 +1,6 @@
 REM   Script: Aula 4
 REM   Criando tabela
 
-insert into cadastro values ('Marcelo', 'Diniz', 1000, 'Piracema 100', sysdate);
-
 create table cadastro 
 (nome varchar2 (30). 
 sobrenome varchar2 (30), 
@@ -40,7 +38,7 @@ select * from cadastro where nome in('Marina', 'Eduardo');
 
 select * from cadastro where nome = 'Marina' or nome = 'Eduardo';
 
-select nome, sobrenome, salario * 13, endereco, dt_ cadastro from cadastro;
+select nome, sobrenome, salario * 13, endereco, dt_cadastro from cadastro;
 
 select * from cadastro where nome = 'Marina' or nome = 'Eduardo';
 
